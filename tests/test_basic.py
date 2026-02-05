@@ -1,3 +1,4 @@
 def add(a,c):
   return a+c
-add(3,4)
+result = add(3,4)
+print(result)
