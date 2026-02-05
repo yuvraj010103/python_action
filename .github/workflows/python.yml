@@ -12,6 +12,6 @@ jobs:
     - name: Install pytest
       run: pip install pytest
     - name: Run script
-      run: python main.py
+      run: python test_basic.py
     - name: Test
       run: pytest main.py
