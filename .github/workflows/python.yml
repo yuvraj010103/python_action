@@ -13,6 +13,10 @@ jobs:
     - name: Install pytest
       run: pip install pytest
     - name: Run script
-      run: python test_basic.py
+      run: |
+        cd tests
+        python test_basic.py
     - name: Test
-      run: pytest main.py
+      run: |
+        cd src
+        python -m pytest addition.py
