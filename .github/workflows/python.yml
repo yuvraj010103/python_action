@@ -12,10 +12,7 @@ jobs:
         python-version: '3.11'
     - name: Install pytest
       run: pip install pytest
-    - name: Run script
-      run: |
-        cd tests
-        python test_basic.py
+
     - name: Test
       run: |
         cd tests
