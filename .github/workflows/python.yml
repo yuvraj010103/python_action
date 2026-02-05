@@ -16,4 +16,4 @@ jobs:
     - name: Test
       run: |
         cd tests
-        python -m pytest main.py
+        python -m pytest test_basic.py
